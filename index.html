@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title> </title>
+  </head>
+  <body>
+    <h1>Flash Beneficios</h1>
+    <input type="file" id="fileInput" accept=".csv" />
+    <br /><br />
+    <table id="dataTable">
+      <thead>
+        <tr id="tableHeader"></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <br />
+
+    <div id="pagination-controls"></div>
+    <button id="exportButton">Exportar para Excel</button>
+    <script src="ligo.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+  </body>
+</html>
